@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "webclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackenbacker/WebClient",
+      "state" : {
+        "revision" : "80312d6d0e0d72f170077809231dded54fd64cbd",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
