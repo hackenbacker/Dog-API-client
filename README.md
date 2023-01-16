@@ -1,6 +1,11 @@
 # 🐶 Dog-API-client
+[![Swift](https://img.shields.io/badge/Swift-5.7-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.7-Orange?style=flat-square)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)
+
 Dog API client library for iOS.
 
+---
 ### Usage
 ```Swift
 let count = 5
@@ -8,7 +13,7 @@ let count = 5
 let response = try await DogAPI.getFacts(count: count)
 
 for fact in response.facts {
-  print(fact)
+    print(fact)  // =>  Trivia about dogs.
 }
 ```
 
@@ -16,7 +21,7 @@ for fact in response.facts {
 * Xcode 14.2 or later
 * iOS 15.0 or later
 
-### Dependency
+### Dependencies
 * [WebClient](https://github.com/hackenbacker/WebClient)<br>
 Web Client to get data from an API endpoint.
 
