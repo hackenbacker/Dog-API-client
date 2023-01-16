@@ -8,6 +8,8 @@ Dog API client library for iOS.
 ---
 ### Usage
 ```Swift
+import DogAPI
+
 let count = 5
 
 let response = try await DogAPI.getFacts(count: count)
